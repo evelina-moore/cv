@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/menu_mobile.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+    <title>CV Evelina Rybnikova</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- БОКОВЕ МЕНЮ 768рх і менше -->
+        <div id="menu-mobile">
+            <div class="menu-img-close">
+                <a href="/">
+                    <img src="./img/close-menu.svg" alt="menu" width="32" height="32" id="btn-close-menu">
+                </a>
+            </div>
+
+            <div class="menu-container">
+                <ul class="menu-list-mobile">
+                    <li><a href="portfolio.html">Projects</a></li>
+                    <li><a href="#me">About me</a></li>
+                    <li><a href="#hard-skills">Tech Skills</a></li>
+                    <!-- <li><a href="#work">Work Experience</a></li> -->
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <header>
+            <nav class="navigation">
+                <!-- КНОПКА ВІДКРИТТЯ БОКОВОГО МЕНЮ (змінюється при адаптації 768рх) -->
+                <div class="menu-mobile">
+                    <h2>Curriculum Vitae</h2>
+
+                    <div class="burger-menu">
+                        <a href="/">
+                            <img src="./img/burger.svg" alt="" id="btn-open-menu">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- МЕНЮ ДЕСКТОП -->
+                <ul class="menu-list">
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#me">About me</a></li>
+                    <li><a href="#hard-skills">Tech Skills</a></li>
+                    <!-- <li><a href="#work">Work Experience</a></li> -->
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- МОБІЛЬНА ВЕРСІЯ ІМЕНІ-->
+            <h1 class="title-mobile">Evelina Rybnikova <br> QA Engeneer</h1>
+
+
+            <h1 class="title-desktop">Evelina Rybnikova | QA Engeneer</h1>
+
+            <section id="me" class="me">
+
+                <div class="name-photo">
+                    <img src="./img/me.jpg" alt="me">
+                </div>
+
+                <article class="about-me">
+                    <h2>About me</h2>
+                    <p>I'm an aspiring QA Engineer with a strong passion for ensuring the quality and functionality of
+                        web applications.
+                        <br><br>
+                        I continuously enhance my skills by staying updated on the latest testing technologies and
+                        methodologies. I'm adept at
+                        collaborating within teams and eager to learn from experienced professionals.
+                        <br><br>
+                        I thrive on challenges and am committed to delivering high-quality results.
+                    </p>
+                </article>
+            </section>
+
+            <div class="skills">
+
+                <section id="hard-skills" class="tech-skills">
+                    <h2>Tech Skills</h2>
+                    <div class="tech-skill-block element-animation">
+                        <div class="skills-bar">
+                            <div class="skill">
+                                <div class="skill-name">
+                                    HTML
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="90%" style="max-width: 90%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">
+                                    CSS | SASS
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="70%" style="max-width: 70%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">
+                                    JavaScript | jQuery.js
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="60%" style="max-width: 60%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">
+                                    Git | GitHub
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="70%" style="max-width: 70%;"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="languages" class="language-sect">
+                    <h2>Languages</h2>
+                    <div class="language-list">
+                        <p>English - B1</p>
+                        <div class="language-img">
+                            <img src="./img/american-flag-2260839_640.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="projects-block">
+                <section id="projects" class="projects">
+                    <h2>Projects</h2>
+                    <div class="project-flex">
+                        <div>
+                            <h3>HTML | CSS</h3>
+                            <img src="./img/comfort_group.jpg" alt="comfort group site" width="250px"> <br>
+                            <a href="https://github.com/evelina-moore/Comfort-group-site" target="_blank">Comfort Group
+                                site</a>
+                        </div>
+                        <div>
+                            <h3>Java Script</h3>
+                            <img src="./img/rps.jpg" alt="comfort group site" width="150px"> <br>
+                            <a href="https://github.com/evelina-moore/Rock-paper-scissors-Game"
+                                target="_blank">Rock-paper-scissors-Game</a>
+                        </div>
+                        <div>
+                            <h3>API</h3>
+                            <img src="./img/weather_app.jpg" alt="comfort group site" width="250px"> <br>
+                            <a href="https://github.com/evelina-moore/Weather-APP-Vue.js-3" target="_blank">Weather
+                                APP</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="work-education">
+                <!-- <section id="work" class="experience">
+                    <h2>Work Experience</h2>
+                    <h3>Front-End Developer Freelance</h3>
+                    <p>April 2023 - up to now | Ukraine</p>
+                    <ol class="experience-list">
+                        <li>I'm learning to layout applications using HTML | CSS | JS</li>
+                        <li>I try to accurately represent in the layout what the designer created, as well as implement
+                            custom
+                            logic.</li>
+                        <li>I deliver quality and detailed work.</li>
+                    </ol>
+                </section> -->
+
+                <section id="edu" class="education">
+                    <h2>Education</h2>
+                    
+                    <h3>IT Step| QA Engeneer</h3>
+                    <p>February 2024 - up to now | Ukraine</p>
+                    <p>STLC | Agile | Test Design | Manual | Auto testing</p>
+                    
+                    <br>
+
+                    <h3>IT Banda | Freelance Programmer</h3>
+                    <p>May 2023 - december 2023 | Ukraine</p>
+                    <p>JS | HTML | CSS</p>
+
+                    <br>
+
+                    <div class="education-block">
+                        <ul class="education-list">
+                            <li>
+                                <h3>Coursera | Google IT Support</h3>
+                            </li>
+                            <li>
+                                <p>September 2022 - June 2023 | Ukraine</p>
+                            </li>
+                            <li>Including troubleshooting and customer service</li>
+                            <li>Networking</li>
+                            <li>Operating systems</li>
+                            <li>System administration and security</li>
+                        </ul>
+
+                        <div class="education-img">
+                            <img src="./img/Coursera 3GWMWAPCPMQ7.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div id="contact" class="contacts">
+                <h2>Contacts</h2>
+                <p>Location: Zaporizhzhia, Ukraine</p>
+                <ul class="contacts-list">
+                    <li>
+                        <a href="mailto:luna.rybnikova@gmail.com" target="_blank">
+                            <img src="./img/icons8-email.gif" alt="Email: Evelina Rybnikova">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/evelina-moore" target="_blank">
+                            <img src="./img/icons8-github-50.png" alt="GitHub: Evelina Moore">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/evelina_moore" target="_blank">
+                            <img src="./img/icons8-telegram-50.png" alt="Telegram: Evelina">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://discord.com/users/evelinamoore/" target="_blank">
+                            <img src="./img/icons8-discord.gif" alt="Discord: evelinamoore">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/evelina-rybnikova-0614ab290/" target="_blank">
+                            <img src="./img/icons8-линкедин-50.png" alt="Linkedin: Evelina Rybnikova">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="menu.js"></script>
+</body>
+
+</html>
